@@ -1,0 +1,44 @@
+/*Reglage de base*/
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/*Header titre+logo en fond*/
+
+h1 {
+	font-size: 3em; 
+	color: black;
+	text-align: center;
+	padding-top: 23%;
+	height: auto;
+	margin: 0em;
+}
+
+header {
+	background-image: url("img_src/logodeer_and_retry.png");
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: 50%;
+	height: auto;
+	width: 100%;
+	padding-top: 0em;
+	background-attachment: fixed;
+}
+
+/*-----------------*/
+
+/*Debut effet parallax*/
+
+.effet_parallax {
+	z-index: 1;
+	background-color: grey;
+}
+
+/*Barre de navigation*/
+
+.nav_barre{
+
+}
